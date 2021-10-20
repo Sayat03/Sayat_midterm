@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(82, 82, 128);
+            font-family: sans-serif;
+        }
+        nav {
+            width: 100%;
+            height: 53px;
+            position: fixed;
+            background-color: red;
+            text-align: right;
+            padding-top: 10px;
+            z-index: 5;
+        }
+        header a {
+            
+            padding: 25px;
+            text-decoration: none;
+            font-family: sans-serif;
+            color: aliceblue;
+            font-size: 26px;
+        }
+        header a:hover {
+            background-color: rgb(82, 82, 128);
+        }
+        .about {
+            text-align: center;
+            width: auto;
+            padding: 300px;
+            color:white;}
+
+            .because{
+                text-align: center;
+                color: white;
+                
+            }
+        }
+        .about h1 {
+            color: aliceblue;
+            font-size: 45px;
+        }
+        .about p {
+            font-style: italic;
+            color: #C01515;
+            margin-top: -30px;
+            font-size: 24px;
+        }
+        .work div {
+            width: 250px;
+            height: 250px;
+            background-color: rgb(89, 89, 89);            
+            margin: 50px;
+            position: relative;
+        }
+        .work {
+            display: flex;
+            flex-wrap: wrap;
+            width: auto;
+            padding: 200px;
+
+        }
+        .work div span {
+            position: absolute;
+            width: 250px;
+            height: 25px;
+            text-align: center;
+            font-family: sans-serif;
+            color: aliceblue;
+            bottom: 0;
+            padding: 9px;
+        }
+        .work div img {
+            width: 250px;
+            height: 200px;
+            position: absolute;
+            top: 0;
+        }
+    </style>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">About</a>
+            <a href="">Work</a>
+            <a href="">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <h1>Hey I am Sayat</h1>
+            <p>a web developer</p>
+            <img src="sayat.jpg" height="300px">
+        </section>
+         <section class="because">
+            <h1><ins>These are some of my project</ins></h1>
+        </section>
+        <section class="work">
+            <div>
+                <img src="https://techtalkshow.co.uk/media/1415/nowloading.jpg?quality=80" alt="">
+                <span>Project 1</span>
+            </div>
+            <div>
+                <img src="https://techtalkshow.co.uk/media/1415/nowloading.jpg?quality=80" alt="">
+                <span>Project 2</span>
+            </div>
+            <div>
+                <img src="https://techtalkshow.co.uk/media/1415/nowloading.jpg?quality=80" alt="">
+                <span>Project 3</span>
+            </div>
+           
+        </section>
+        <section class="contact">
+            <h1>You can find me here</h1>
+        </section>
+    </main>
+</body>
+</html>
